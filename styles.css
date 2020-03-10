@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 95px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: outset;
+  border-color: grey;
+  border-width: 3px;
+  width: 2%;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Cutive Mono', monospace;
+  color: #1eb2a6;
+  font-size: 50px;
+}
+
+h3{
+  font-family: 'Cutive Mono', monospace;
+}
+
+.TopContainer {
+  background-color: #bae5e5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 1200px;
+  bottom: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+  width: 250px;
+  height: 250px;
+  }
+
+.birds {
+  position: absolute;
+  right: 1200px;
+  bottom: 85px;
+  width: 250px;
+  height: 250px;
+}
+
+.titleclose {
+  font-size: 35px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 88%;
+
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+.secondtop-cloud {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 250px;
+  height: 250px;
+}
+
+.top-cloud:hover {
+  transform: scaleX(-1);
+}
+
+.secondtop-cloud:hover {
+  transform: scaleX(-1);
+}
+
+.person {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.laptop {
+padding-top: 75px;
+}
